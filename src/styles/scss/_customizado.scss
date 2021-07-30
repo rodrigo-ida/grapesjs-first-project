@@ -1,0 +1,34 @@
+body, html {
+height: 100%;
+margin: 0;
+}
+
+.titulo{
+    background-image: url('../../src/image/titulo.png');
+}
+
+.panel__top {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    position: initial;
+    justify-content: center;
+    justify-content: space-between;
+    height: 50px !important;
+    background: blue ;
+  }
+  .panel__basic-actions {
+    position: initial;
+  }
+
+  .gjs-one-bg{
+
+    background-color: antiquewhite !important; 
+  }
+
+
+  // .gjs-blocks-cs{
+
+  //   background: linear-gradient(to bottom, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // }
+
