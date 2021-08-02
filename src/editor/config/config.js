@@ -47,9 +47,9 @@ export default {
       min-height: 100%;
     }
     body {
-      margin: 0;
+      margin: 100px;
       height: 100%;
-      background-color: #fff
+      background-color: black;
     }
     [data-gjs-type=wrapper] {
       overflow: auto;
@@ -67,10 +67,15 @@ export default {
     * ::-webkit-scrollbar {
       width: 10px
     }
+    section{
+      width: 100vw;
+      height: 100px;
+      background-color: black;
+    }
   `,
 
   // CSS that could only be seen (for instance, inside the code viewer)
-  protectedCss: '* { box-sizing: border-box; } body {margin: 0;}',
+  protectedCss: '* { box-sizing: border-box; } body {margin: 0;}' ,
 
   // CSS for the iframe which containing the canvas, useful if you need to custom something inside
   // (eg. the style of the selected component)
